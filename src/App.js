@@ -71,30 +71,13 @@ const sects = activos => {
 const DATA = {
   ay: 2026,
   years: {
-    2025: {
-      year: 2025, pi: 26994146, meta: 50000000, months: {
-        ENE: { t: 26994146, a: [{ n: "VOO", c: 513675, u: 140 }, { n: "NU", c: 3474644, u: 947 }, { n: "BTC", c: 726483, u: 198 }, { n: "ETH", c: 517344, u: 141 }, { n: "EFECTIVO", c: 11262000, u: 0 }, { n: "GOTA", c: 10500000, u: 0 }], ing: 0, gas: 0 },
-        FEB: { t: 27400776, a: [{ n: "VOO", c: 517344, u: 141 }, { n: "NU", c: 4417605, u: 1204 }, { n: "BTC", c: 759505, u: 207 }, { n: "ETH", c: 484322, u: 132 }, { n: "EFECTIVO", c: 10722000, u: 0 }, { n: "GOTA", c: 10500000, u: 0 }], ing: 0, gas: 0 },
-        MAR: { t: 28234402, a: [{ n: "VOO", c: 2513338, u: 685 }, { n: "QQQ", c: 2638088, u: 719 }, { n: "NVDA", c: 154102, u: 42 }, { n: "NU", c: 3738820, u: 1019 }, { n: "GOOGL", c: 649432, u: 177 }, { n: "BTC", c: 612741, u: 167 }, { n: "ETH", c: 322881, u: 88 }, { n: "EFECTIVO", c: 8605000, u: 0 }, { n: "GOTA", c: 9000000, u: 0 }], ing: 0, gas: 0 },
-        ABR: { t: 30404935, a: [{ n: "VOO", c: 2726146, u: 743 }, { n: "NU", c: 3467306, u: 945 }, { n: "GOOGL", c: 796196, u: 217 }, { n: "NVDA", c: 143095, u: 39 }, { n: "QQQ", c: 3184785, u: 868 }, { n: "BTC", c: 983321, u: 268 }, { n: "ETH", c: 631086, u: 172 }, { n: "EFECTIVO", c: 9473000, u: 0 }, { n: "GOTA", c: 9000000, u: 0 }], ing: 0, gas: 0 },
-        MAY: { t: 33709870, a: [{ n: "VOO", c: 2770176, u: 755 }, { n: "QQQ", c: 3716805, u: 1013 }, { n: "NVDA", c: 150433, u: 41 }, { n: "NU", c: 4193789, u: 1143 }, { n: "GOOGL", c: 825549, u: 225 }, { n: "BTC", c: 2707801, u: 738 }, { n: "ETH", c: 634755, u: 173 }, { n: "BASE ACCIONES", c: 289859, u: 79 }, { n: "DOLARAPP", c: 3562703, u: 971 }, { n: "EFECTIVO", c: 5858000, u: 0 }, { n: "GOTA", c: 9000000, u: 0 }], ing: 0, gas: 0 },
-        JUN: { t: 37964315, a: [{ n: "VOO", c: 2905933, u: 792 }, { n: "QQQ", c: 4278178, u: 1166 }, { n: "NU", c: 3977312, u: 1084 }, { n: "GOOGL", c: 884255, u: 241 }, { n: "NVDA", c: 183455, u: 50 }, { n: "BTC", c: 4531347, u: 1235 }, { n: "ETH", c: 4978978, u: 1357 }, { n: "DOLLAR", c: 3294858, u: 898 }, { n: "EFECTIVO", c: 3930000, u: 0 }, { n: "GOTA", c: 9000000, u: 0 }], ing: 0, gas: 0 },
-        JUL: { t: 42924239, a: [{ n: "GOOGL", c: 906269, u: 247 }, { n: "TSLA", c: 179786, u: 49 }, { n: "VOO", c: 3041689, u: 829 }, { n: "QQQ", c: 4524009, u: 1233 }, { n: "BASE", c: 4424943, u: 1206 }, { n: "BTC", c: 4865236, u: 1326 }, { n: "ETH", c: 4971640, u: 1355 }, { n: "FUTUROS", c: 3008668, u: 820 }, { n: "GOTA", c: 9000000, u: 0 }, { n: "EFECTIVO", c: 8002000, u: 0 }], ing: 0, gas: 0 },
-        AGO: { t: 47162041, a: [{ n: "TSLA", c: 183455, u: 50 }, { n: "GOOGL", c: 975982, u: 266 }, { n: "VOO", c: 3107733, u: 847 }, { n: "QQQ", c: 4582714, u: 1249 }, { n: "FUTUROS", c: 2843558, u: 775 }, { n: "DOLLAR", c: 3364571, u: 917 }, { n: "BTC", c: 5283514, u: 1440 }, { n: "ETH", c: 7789514, u: 2123 }, { n: "GOTA", c: 9000000, u: 0 }, { n: "EFECTIVO", c: 10031000, u: 0 }], ing: 0, gas: 0 },
-        SEP: { t: 34079724, a: [{ n: "QQQ", c: 4707464, u: 1283 }, { n: "BTC", c: 6897921, u: 1880 }, { n: "ETH", c: 11821862, u: 3222 }, { n: "FUTUROS", c: 2722477, u: 742 }, { n: "EFECTIVO", c: 430000, u: 0 }, { n: "GOTA", c: 7500000, u: 0 }], ing: 0, gas: 0 },
-        OCT: { t: 34606012, a: [{ n: "QQQ", c: 4975309, u: 1356 }, { n: "BTC", c: 7066700, u: 1926 }, { n: "ETH", c: 10992644, u: 2996 }, { n: "FUTUROS", c: 2546360, u: 694 }, { n: "EFECTIVO", c: 1525000, u: 0 }, { n: "GOTA", c: 7500000, u: 0 }], ing: 0, gas: 0 },
-        NOV: { t: 36667627, a: [{ n: "QQQ", c: 4945956, u: 1348 }, { n: "BTC", c: 6993317, u: 1906 }, { n: "ETH", c: 9616729, u: 2621 }, { n: "FUTUROS", c: 2443625, u: 666 }, { n: "EFECTIVO", c: 5168000, u: 0 }, { n: "GOTA", c: 7500000, u: 0 }], ing: 0, gas: 0 },
-        DIC: { t: 48859057, a: [{ n: "QQQ", c: 5100058, u: 1390 }, { n: "BTC", c: 6171438, u: 1682 }, { n: "ETH", c: 8684776, u: 2367 }, { n: "SMALLCAPS", c: 9172767, u: 2500 }, { n: "EFECTIVO", c: 11199000, u: 0 }, { n: "GOTA", c: 7500000, u: 0 }, { n: "DOLARES FISICOS", c: 1031019, u: 281 }], ing: 0, gas: 0 },
-      }
-    },
     2026: {
-      year: 2026, pi: 41140637, meta: 80000000, months: {
-        ENE: { t: 41140637, a: [{ n: "QQQ", c: 5182313, u: 1395 }, { n: "SMALLCAPS", c: 9287300, u: 2500 }, { n: "BTC", c: 5386634, u: 1450 }, { n: "ETH", c: 6779729, u: 1825 }, { n: "DÓLARES", c: 1359661, u: 366 }, { n: "EFECTIVO", c: 5645000, u: 0 }, { n: "GOTA", c: 7500000, u: 0 }], ing: 0, gas: 0 },
-        FEB: { t: 41958484, a: [{ n: "QQQ", c: 5003997, u: 1347 }, { n: "SMALLCAPS", c: 9276155, u: 2497 }, { n: "BTC", c: 4762527, u: 1282 }, { n: "ETH", c: 5862144, u: 1578 }, { n: "DÓLARES", c: 1359661, u: 366 }, { n: "EFECTIVO", c: 8194000, u: 0 }, { n: "GOTA", c: 7500000, u: 0 }], ing: 0, gas: 0 },
-        MAR: { t: 43677967, a: [{ n: "QQQ", c: 5119160, u: 1378 }, { n: "SMALLCAPS", c: 8139390, u: 2191 }, { n: "BTC", c: 4959418, u: 1335 }, { n: "ETH", c: 6452816, u: 1737 }, { n: "DÓLARES/ARQ", c: 3581183, u: 964 }, { n: "EFECTIVO", c: 7926000, u: 0 }, { n: "GOTA", c: 7500000, u: 0 }], ing: 0, gas: 0 },
-        ABR: { t: 48297035, a: [{ n: "QQQ", c: 5642963, u: 1519 }, { n: "SMALLCAPS", c: 7667595, u: 2064 }, { n: "BTC", c: 5616959, u: 1512 }, { n: "ETH", c: 6980335, u: 1879 }, { n: "DÓLARES/ARQ", c: 3581183, u: 964 }, { n: "EFECTIVO", c: 11308000, u: 0 }, { n: "GOTA", c: 7500000, u: 0 }], ing: 0, gas: 0 },
-        MAY: { t: 0, a: [], ing: 0, gas: 0 }, JUN: { t: 0, a: [], ing: 0, gas: 0 }, JUL: { t: 0, a: [], ing: 0, gas: 0 },
-        AGO: { t: 0, a: [], ing: 0, gas: 0 }, SEP: { t: 0, a: [], ing: 0, gas: 0 }, OCT: { t: 0, a: [], ing: 0, gas: 0 },
+      year: 2026, pi: 0, meta: 0, months: {
+        ENE: { t: 0, a: [], ing: 0, gas: 0 }, FEB: { t: 0, a: [], ing: 0, gas: 0 },
+        MAR: { t: 0, a: [], ing: 0, gas: 0 }, ABR: { t: 0, a: [], ing: 0, gas: 0 },
+        MAY: { t: 0, a: [], ing: 0, gas: 0 }, JUN: { t: 0, a: [], ing: 0, gas: 0 },
+        JUL: { t: 0, a: [], ing: 0, gas: 0 }, AGO: { t: 0, a: [], ing: 0, gas: 0 },
+        SEP: { t: 0, a: [], ing: 0, gas: 0 }, OCT: { t: 0, a: [], ing: 0, gas: 0 },
         NOV: { t: 0, a: [], ing: 0, gas: 0 }, DIC: { t: 0, a: [], ing: 0, gas: 0 },
       }
     }
